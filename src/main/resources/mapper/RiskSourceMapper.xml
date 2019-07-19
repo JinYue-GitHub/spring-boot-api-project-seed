@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.RiskSourceMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.RiskSource">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ris_id" jdbcType="INTEGER" property="risId" />
+    <result column="ris_name" jdbcType="VARCHAR" property="risName" />
+    <result column="ris_uuid" jdbcType="VARCHAR" property="risUuid" />
+    <result column="ris_desc" jdbcType="VARCHAR" property="risDesc" />
+    <result column="ris_head" jdbcType="VARCHAR" property="risHead" />
+    <result column="ris_check_frequency" jdbcType="VARCHAR" property="risCheckFrequency" />
+    <result column="ris_inspection_status" jdbcType="BIT" property="risInspectionStatus" />
+    <result column="ris_construction_status" jdbcType="BIT" property="risConstructionStatus" />
+    <result column="ris_position_x" jdbcType="VARCHAR" property="risPositionX" />
+    <result column="ris_position_y" jdbcType="VARCHAR" property="risPositionY" />
+    <result column="ris_order" jdbcType="INTEGER" property="risOrder" />
+    <result column="ris_status" jdbcType="BIT" property="risStatus" />
+    <result column="ris_create_by" jdbcType="VARCHAR" property="risCreateBy" />
+    <result column="ris_update_by" jdbcType="VARCHAR" property="risUpdateBy" />
+    <result column="ris_remarks" jdbcType="VARCHAR" property="risRemarks" />
+    <result column="ris_create_time" jdbcType="TIMESTAMP" property="risCreateTime" />
+    <result column="ris_modified_time" jdbcType="TIMESTAMP" property="risModifiedTime" />
+    <result column="ris_del_flag" jdbcType="BIT" property="risDelFlag" />
+  </resultMap>
+</mapper>
